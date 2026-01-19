@@ -10,7 +10,7 @@ export async function getImagesByQuery(query) {
             q: query,
             image_type: 'photo',
             orientation: 'horizontal',
-            satisfies: 'true',
+            safesearch : 'true',
         },
     });
 
